@@ -1,0 +1,46 @@
+*{
+    list-style: none;
+}
+body{
+    background-color: #000000;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+
+    background-color: #972020;
+    color: rgb(155, 155, 155);
+    justify-content: space-evenly;
+ 
+
+}
+
+
+
+ul{
+    font-weight: bolder;
+    font-size: 20px;
+    
+   
+    
+
+}
+ul li {
+    display: none;
+    
+}
+
+ul:hover li{
+    display:block;
+    font-size: 15px;
+    font-weight:lighter;
+    
+}
+
+hr{
+    height: 50px;
+    background: linear-gradient(30deg,rgb(0, 255, 55)05%,rgb(0, 0, 0)95%);
+    border: #000000;
+    
+}
